@@ -1,0 +1,1 @@
+go run ./cmd/rabbitmq/producer/main.go
