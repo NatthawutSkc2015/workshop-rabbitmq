@@ -33,3 +33,8 @@ Thumbs.db
 # Environment files
 .env
 .env.local
+
+# Test
+coverage
+
+volumes

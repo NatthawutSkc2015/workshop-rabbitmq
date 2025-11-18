@@ -9,7 +9,7 @@ import (
 	"time"
 
 	config "go-queue/configs/rabbitmq"
-	"go-queue/internal/service"
+	service "go-queue/internal/service/message"
 	"go-queue/pkg/rabbitmq"
 
 	"github.com/sirupsen/logrus"

@@ -13,8 +13,8 @@ func TestMessageService_ProcessMessage(t *testing.T) {
 	service := NewMessageService(nil, "test-exchange", "test.key")
 
 	message := map[string]interface{}{
-		"id":      "msg-1",
-		"content": "test message",
+		// "id":      "msg-1",
+		// "content": "test message",
 	}
 	body, _ := json.Marshal(message)
 
